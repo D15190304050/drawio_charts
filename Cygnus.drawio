@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T14:20:06.898Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="I7KTC30BECoxxg_BzWvi" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T07:01:14.098Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="WI5sOgph6Zbc4KDJm8Ak" version="21.6.5" type="github">
   <diagram name="第 1 页" id="5EeTXoFenc_YiNX9l1NI">
-    <mxGraphModel dx="830" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,32 +13,26 @@
         <mxCell id="MFsD-34qDo7G34yyTd13-5" value="Get all classes with the specified annotation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="130" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-1" value="Create an invocation based on the specified method &amp;amp; instance in the spring IoC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-1" value="Create an invocation based on the specified method &amp;amp; instance in the spring IoC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-2" value="Instance loaded in the spring IoC?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-2" value="Instance loaded in the spring IoC?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="170" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-3" value="Create an instance of the specified class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-3" value="Create an instance of the specified class" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="280" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-4" value="Create an invocation based on created instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-4" value="Create an invocation based on created instance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="320" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-5" value="Generate JobId based on class &amp;amp; method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-5" value="Generate job info based on class &amp;amp; method" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="380" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-7" value="Register the JobId to registry center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="440" width="250" height="30" as="geometry" />
+        <mxCell id="W75cND2qvZO_ZwM8Ezsm-10" value="Listen to call from the schedulers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="780" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-8" value="Wait for response of registry success" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="500" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-9" value="Send heartbeats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="560" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W75cND2qvZO_ZwM8Ezsm-10" value="Listen to call from the schedulers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="620" width="250" height="30" as="geometry" />
+        <mxCell id="DGsf9-MeSTJs5lk7nA3e-1" value="Generate job info based on class &amp;amp; method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
