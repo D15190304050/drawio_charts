@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T15:51:09.422Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="-aU-BcjAhNUQ5lSggNpf" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T15:45:58.550Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="oGpVnr4NL6YyP1SUkVIJ" version="21.6.9" type="github">
   <diagram name="第 1 页" id="5EeTXoFenc_YiNX9l1NI">
-    <mxGraphModel dx="1430" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,34 +47,31 @@
           <mxGeometry x="70" y="750" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-4" value="Get current scheduler list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1030" width="250" height="30" as="geometry" />
+          <mxGeometry x="414" y="1040" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-5" value="If the current scheduler is the scheduler with min registration time, run the job allocation algorithm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1100" width="250" height="50" as="geometry" />
+          <mxGeometry x="414" y="1100" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-6" value="Register scheduler watcher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="960" width="250" height="30" as="geometry" />
+          <mxGeometry x="414" y="970" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-7" value="Start scheduling cycles" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1400" width="250" height="30" as="geometry" />
+          <mxGeometry x="70" y="1020" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-8" value="Put allocation result to ZK" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1190" width="250" height="30" as="geometry" />
+          <mxGeometry x="414" y="1190" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-10" value="Register scheduling allocation watcher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="890" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Q25WiTdi54f8AYO-q5Q-11" value="Get job info from admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="890" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4Q25WiTdi54f8AYO-q5Q-11" value="Get job info" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1260" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4Q25WiTdi54f8AYO-q5Q-12" value="Register job info watcher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1330" width="250" height="30" as="geometry" />
+        <mxCell id="4Q25WiTdi54f8AYO-q5Q-12" value="Register job info watcher (jobs need to be scheduled)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="950" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Q25WiTdi54f8AYO-q5Q-13" value="Register to ZK" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="820" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pBQQWS3VcoQOjUSulyyc-1" value="/cygnus/jobs/[applicationName]/[jobName, cron]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="680" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pBQQWS3VcoQOjUSulyyc-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pBQQWS3VcoQOjUSulyyc-2" target="pBQQWS3VcoQOjUSulyyc-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -130,23 +127,86 @@
         <mxCell id="pBQQWS3VcoQOjUSulyyc-33" value="A scheduler can register to multiple applications" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="610" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-1" value="/[IP:port, refreshTime + connected jobs]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-1" value="/[IP:port, refreshTime + connected jobs]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1137" y="244" width="223" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-2" value="Application ID is generated by the admin console." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-2" value="Application ID is generated by the admin console." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="994" y="60" width="509" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="QsFEnTBMGscoWcGjqfU7-3" target="pBQQWS3VcoQOjUSulyyc-4">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="QsFEnTBMGscoWcGjqfU7-3" target="pBQQWS3VcoQOjUSulyyc-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-3" value="Watched by schedulers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-3" value="Watched by schedulers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="420" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="QsFEnTBMGscoWcGjqfU7-7" target="pBQQWS3VcoQOjUSulyyc-2">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="QsFEnTBMGscoWcGjqfU7-7" target="pBQQWS3VcoQOjUSulyyc-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QsFEnTBMGscoWcGjqfU7-7" value="Watched by admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QsFEnTBMGscoWcGjqfU7-7" value="Watched by admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-1" target="Dp9xP11dtMqaC-6ADBGW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-1" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="660" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-2" target="Dp9xP11dtMqaC-6ADBGW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-2" target="Dp9xP11dtMqaC-6ADBGW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-2" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="730" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-3" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-6" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-8" value="Flow of job scheduling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-9" value="Send job allocation info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-10" value="Job scheduling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="763" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-12" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="650" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-15" target="Dp9xP11dtMqaC-6ADBGW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-15" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="720" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-16" target="Dp9xP11dtMqaC-6ADBGW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-16" target="Dp9xP11dtMqaC-6ADBGW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-16" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="790" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dp9xP11dtMqaC-6ADBGW-17" target="Dp9xP11dtMqaC-6ADBGW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-17" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="790" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-18" value="Flow of job scheduling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="850" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-19" value="Send collected logs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="680" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9xP11dtMqaC-6ADBGW-20" value="Send logs of single job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="753" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
