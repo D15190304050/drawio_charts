@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T15:40:41.387Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="v1ROvmooH2FONkSlgNXS" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T17:05:11.007Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36" etag="ECJEC2MeeKpyzr-6i7oJ" version="21.7.2" type="github">
   <diagram name="第 1 页" id="5EeTXoFenc_YiNX9l1NI">
     <mxGraphModel dx="988" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,6 +207,45 @@
         </mxCell>
         <mxCell id="Dp9xP11dtMqaC-6ADBGW-20" value="Send logs of single job" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="753" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--3" value="Interaction between Admin &amp;amp; Scheduler (message types)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1190" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--5" value="Schedule info, only updated when there is new scheduler, executor or job added." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1260" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--6" value="Mannually trigger of job run." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1330" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--7" value="Response: true/false." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1260" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--8" value="Trigger result." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1330" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--9" value="Fetch job logs. Peridically" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1400" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--10" value="Job logs." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1400" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--11" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1530" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--12" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1137" y="1530" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--13" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--14" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1670" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--15" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1137" y="1600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlNk3kSOHHy-lMkBoKm--16" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1137" y="1670" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
